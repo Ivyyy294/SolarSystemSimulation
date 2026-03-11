@@ -26,5 +26,14 @@
     <ClInclude Include="SolarSystemScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OrbitalElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CelestialObjectAppearance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CelestialObjectDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

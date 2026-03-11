@@ -131,6 +131,9 @@
     <ClCompile Include="SolarSystemScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CelestialObjectAppearance.h" />
+    <ClInclude Include="CelestialObjectDefinition.h" />
+    <ClInclude Include="OrbitalElement.h" />
     <ClInclude Include="SolarSystemScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
