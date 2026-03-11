@@ -137,6 +137,7 @@
     <ClInclude Include="CelestialObjectDefinition.h" />
     <ClInclude Include="CelestialObjectManager.h" />
     <ClInclude Include="ColorMaterial.h" />
+    <ClInclude Include="KeplarianOrbitData.h" />
     <ClInclude Include="OrbitalElement.h" />
     <ClInclude Include="SolarSystemScene.h" />
   </ItemGroup>

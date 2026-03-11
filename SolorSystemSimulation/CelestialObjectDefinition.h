@@ -6,8 +6,8 @@ template <int N>
 struct CelestialObjectDefinition
 {
 	//Variables
-	OrbitalElement<N> orbitalElement;
-	CelestialObjectAppearance<N> appearance;
-	int parentIndex [N];
-	float mass[N];
+	OrbitalElement<N> m_orbitalElement;
+	CelestialObjectAppearance<N> m_appearance;
+	int m_parentIndex [N];
+	float m_mass[N];
 };

@@ -47,5 +47,8 @@
     <ClInclude Include="ColorMaterial.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="KeplarianOrbitData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
