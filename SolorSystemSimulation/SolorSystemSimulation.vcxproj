@@ -127,12 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CelestialObjectManager.cpp" />
+    <ClCompile Include="ColorMaterial.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SolarSystemScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CelestialObjectAppearance.h" />
     <ClInclude Include="CelestialObjectDefinition.h" />
+    <ClInclude Include="CelestialObjectManager.h" />
+    <ClInclude Include="ColorMaterial.h" />
     <ClInclude Include="OrbitalElement.h" />
     <ClInclude Include="SolarSystemScene.h" />
   </ItemGroup>

@@ -18,6 +18,6 @@ public:
 	{
 		m_radius[index] = radius;
 		m_color[index] = color;
-		m_radius[index] = rings;
+		m_rings[index] = rings;
 	}
 };

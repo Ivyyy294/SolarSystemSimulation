@@ -4,6 +4,7 @@
 #include <IvyyyScreen.h>
 #include <IvyyyWindow.h>
 #include "math.h"
+#include "SolarSystemScene.h"
 
 using namespace Ivyyy;
 
@@ -16,6 +17,6 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	Ivyyy::Window::SetFullscreen(true);
 	Ivyyy::Screen::SetResolution(Ivyyy::Resolution{ 1920, 1080 });
 	Ivyyy::Renderer::SetMode(Renderer::Mode::DX11);
-
+	Ivyyy::SceneHandler::AddScene <SolarSystemScene>();
 	return Ivyyy::IvyyyEngine::Start(hInstance, nCmdShow);
 }
